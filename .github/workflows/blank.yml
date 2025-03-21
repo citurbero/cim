@@ -35,7 +35,7 @@ jobs:
       - name: Run a one-line script
         run: echo "Hello, world! {{VAR_AMBIENTE}}"
       - name: Run a one-line script
-        run: echo "Hello, world! ${{ORDS_TI_BANCA_DIGITAL_PASS}}"
+        run: echo "Hello, world! {{ORDS_TI_BANCA_DIGITAL_PASS}}"
       - name: Run a one-line script
         run: echo "Hello, world! ${{secret.ORDS_TI_BANCA_DIGITAL_PASS}}"
       - name: Run a one-line script
