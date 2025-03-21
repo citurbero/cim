@@ -47,8 +47,7 @@ jobs:
       - shell: bash
         env:
           SUPER_SECRET: ${{secrets.ORDS_TI_BANCA_DIGITAL_PASS}}
-        run: |
-          example-command "$SUPER_SECRET"
+        run: echo "$SUPER_SECRET"
           
       # Runs a set of commands using the runners shell
       - name: Run a multi-line script
